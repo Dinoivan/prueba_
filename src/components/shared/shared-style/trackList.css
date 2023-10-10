@@ -1,0 +1,48 @@
+.tracklist__container {
+    width: 300px;
+    max-width: 350px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tracklist__header {
+    width: 70px;
+    aspect-ratio: 1;
+    display: flex;
+}
+.tracklist__header img {
+    width: 100%;
+    border-radius: 10px;
+}
+.tracklist__body {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 15px;
+}
+.tracklist__name {
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.artist__name__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+}
+.artist__name {
+    font-size: 0.7rem;
+    color:  rgba(255, 255, 255, 0.4);
+}
+.bx-minus-circle {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
